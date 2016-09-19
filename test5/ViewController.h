@@ -7,9 +7,16 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <QuartzCore/QuartzCore.h>
 
 @interface ViewController : UIViewController
 
 
 @end
+@interface arrayandid : NSObject
+-(id)init;
+-(NSMutableArray*) getbank;
+-(int)getid;
+-(void)setid:(int)toid;
 
+@end

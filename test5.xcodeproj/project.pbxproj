@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DAC432121ACE8367009DA1C6 /* 9aaaf4e1.png in Resources */ = {isa = PBXBuildFile; fileRef = DAC432111ACE8367009DA1C6 /* 9aaaf4e1.png */; };
 		DACB7B521ACD59180088A07C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DACB7B511ACD59180088A07C /* main.m */; };
 		DACB7B551ACD59180088A07C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DACB7B541ACD59180088A07C /* AppDelegate.m */; };
 		DACB7B581ACD59180088A07C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DACB7B571ACD59180088A07C /* ViewController.m */; };
@@ -14,6 +15,8 @@
 		DACB7B5D1ACD59180088A07C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DACB7B5C1ACD59180088A07C /* Images.xcassets */; };
 		DACB7B601ACD59180088A07C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DACB7B5E1ACD59180088A07C /* LaunchScreen.xib */; };
 		DACB7B6C1ACD59180088A07C /* test5Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = DACB7B6B1ACD59180088A07C /* test5Tests.m */; };
+		DACB7B761ACD5AAF0088A07C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DACB7B751ACD5AAF0088A07C /* QuartzCore.framework */; };
+		DACB7B7A1ACD5E330088A07C /* t02200275_0708088611887392541.png in Resources */ = {isa = PBXBuildFile; fileRef = DACB7B791ACD5E330088A07C /* t02200275_0708088611887392541.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +30,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		DAC432111ACE8367009DA1C6 /* 9aaaf4e1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9aaaf4e1.png; sourceTree = "<group>"; };
 		DACB7B4C1ACD59180088A07C /* test5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = test5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACB7B501ACD59180088A07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DACB7B511ACD59180088A07C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		DACB7B651ACD59180088A07C /* test5Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = test5Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DACB7B6A1ACD59180088A07C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DACB7B6B1ACD59180088A07C /* test5Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = test5Tests.m; sourceTree = "<group>"; };
+		DACB7B751ACD5AAF0088A07C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		DACB7B791ACD5E330088A07C /* t02200275_0708088611887392541.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = t02200275_0708088611887392541.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +53,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DACB7B761ACD5AAF0088A07C /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +70,7 @@
 		DACB7B431ACD59180088A07C = {
 			isa = PBXGroup;
 			children = (
+				DACB7B751ACD5AAF0088A07C /* QuartzCore.framework */,
 				DACB7B4E1ACD59180088A07C /* test5 */,
 				DACB7B681ACD59180088A07C /* test5Tests */,
 				DACB7B4D1ACD59180088A07C /* Products */,
@@ -88,6 +96,7 @@
 				DACB7B591ACD59180088A07C /* Main.storyboard */,
 				DACB7B5C1ACD59180088A07C /* Images.xcassets */,
 				DACB7B5E1ACD59180088A07C /* LaunchScreen.xib */,
+				DAC432111ACE8367009DA1C6 /* 9aaaf4e1.png */,
 				DACB7B4F1ACD59180088A07C /* Supporting Files */,
 			);
 			path = test5;
@@ -98,6 +107,7 @@
 			children = (
 				DACB7B501ACD59180088A07C /* Info.plist */,
 				DACB7B511ACD59180088A07C /* main.m */,
+				DACB7B791ACD5E330088A07C /* t02200275_0708088611887392541.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -200,6 +210,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				DACB7B5B1ACD59180088A07C /* Main.storyboard in Resources */,
+				DACB7B7A1ACD5E330088A07C /* t02200275_0708088611887392541.png in Resources */,
+				DAC432121ACE8367009DA1C6 /* 9aaaf4e1.png in Resources */,
 				DACB7B601ACD59180088A07C /* LaunchScreen.xib in Resources */,
 				DACB7B5D1ACD59180088A07C /* Images.xcassets in Resources */,
 			);
@@ -412,6 +424,7 @@
 				DACB7B711ACD59180088A07C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DACB7B721ACD59180088A07C /* Build configuration list for PBXNativeTarget "test5Tests" */ = {
 			isa = XCConfigurationList;
@@ -420,6 +433,7 @@
 				DACB7B741ACD59180088A07C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
